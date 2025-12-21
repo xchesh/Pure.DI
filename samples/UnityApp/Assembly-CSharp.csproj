@@ -64,11 +64,13 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.35f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\ClockConfig.cs" />
     <Compile Include="Assets\Scripts\Clock.cs" />
-    <Compile Include="Assets\Scripts\IClockModel.cs" />
+    <Compile Include="Assets\Scripts\ClockService.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
-    <Compile Include="Assets\Scripts\ClockModel.cs" />
-    <Compile Include="Assets\Scripts\Composition.cs" />
+    <Compile Include="Assets\Scripts\IClockConfig.cs" />
+    <Compile Include="Assets\Scripts\Scope.cs" />
+    <Compile Include="Assets\Scripts\IClockService.cs" />
     <None Include="Assets\Packages\Pure.DI.2.2.16\analyzers\dotnet\roslyn4.8\cs\Pure.DI.deps.json" />
     <None Include="Assets\Packages\Pure.DI.2.2.16\analyzers\dotnet\roslyn4.3\cs\Pure.DI.deps.json" />
     <Reference Include="UnityEngine">

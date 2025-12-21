@@ -179,6 +179,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5cdbad8394da674daccd3531201b39d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scope: {fileID: 11400000, guid: 119c7ccc026e6e441b4b5d54a37cefbc, type: 2}
   hoursPivot: {fileID: 2109923015}
   minutesPivot: {fileID: 1371651134}
   secondsPivot: {fileID: 733636960}

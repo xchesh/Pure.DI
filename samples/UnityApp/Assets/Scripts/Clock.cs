@@ -12,7 +12,7 @@ public class Clock : MonoBehaviour
 
     [SerializeField]
     Transform hoursPivot;
-    
+
     [SerializeField]
     Transform minutesPivot;
 
@@ -22,7 +22,7 @@ public class Clock : MonoBehaviour
     [Dependency]
     public IClockService ClockService { private get; set; }
 
-    void Start()
+    void Awake()
     {
         scope.BuildUp(this);
     }

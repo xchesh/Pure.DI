@@ -15,6 +15,8 @@ public partial class Scope : MonoBehaviour
     void Start()
     {
         ClockManager.Start();
+
+        new CompositionImplementation().Root.Run();
     }
 
     void OnDestroy()
